@@ -12,7 +12,7 @@ Then...
 import 'frida-vue-components'
 ```
 
-### Content
+## Content
 
 - charleft
 - ...
