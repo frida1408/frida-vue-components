@@ -1,11 +1,19 @@
 {
   "name": "frida-vue-components",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
+  "description": "A package of vue components",
+  "author": "Daniel Fritzsch",
+  "license": "MIT",
+  "main": "dist/frida.umd.min.js",
+  "private": false,
+  "files": [
+    "dist/*",
+    "*.json",
+    "*.js"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build-lib": "vue-cli-service build --target lib --name frida ./src/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.4",

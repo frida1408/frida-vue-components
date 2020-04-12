@@ -1,17 +1,23 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <hr />
+    <input v-model="text" />
+    <hr />
+    <char-left :text="text" :maxChars="25"></char-left>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CharLeft from './components/charleft.vue'
 
 export default {
-  name: 'App',
+  data() {
+    return {
+      text: ''
+    }
+  },
   components: {
-    HelloWorld
+    CharLeft
   }
 }
 </script>

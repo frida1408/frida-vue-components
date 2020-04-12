@@ -1,24 +1,17 @@
 # frida-vue-components
 
-## Project setup
-```
-npm install
-```
+## Installation
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+npm install --save frida-vue-components
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Then...
+...
+import 'frida-vue-components'
+...
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Content
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+...
+
+- charleft
+  ...
