@@ -16,3 +16,28 @@ import 'frida-vue-components'
 
 - charleft
 - ...
+
+## Usage
+
+```
+<template>
+  <div id="app">
+    <hr />
+    <input v-model="text" />
+    <hr />
+    <char-left :text="text" :maxChars="25"></char-left>
+  </div>
+</template>
+
+<script>
+import 'frida-vue-components'
+
+export default {
+  data() {
+    return {
+      text: ''
+    }
+  }
+}
+</script>
+```
